@@ -1,0 +1,39 @@
+{
+  "name": "ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DjReactive/AJS-Modules.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "DjReactive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DjReactive/AJS-Modules/issues"
+  },
+  "homepage": "https://github.com/DjReactive/AJS-Modules#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.3",
+    "core-js": "^3.19.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
